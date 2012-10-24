@@ -1,0 +1,4 @@
+#Ignore the images folder
+images/
+#Ignore the binary
+openStarStack

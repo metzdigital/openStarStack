@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/openStack/!svn/ver/22/trunk/tests
+END
+rotate_n45.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/openStack/!svn/ver/22/trunk/tests/rotate_n45.jpg
+END
+rotate_n90.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/openStack/!svn/ver/22/trunk/tests/rotate_n90.jpg
+END
+rotate_p45.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/openStack/!svn/ver/22/trunk/tests/rotate_p45.jpg
+END
+rotate_p90.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/openStack/!svn/ver/22/trunk/tests/rotate_p90.jpg
+END
+scale_2p0.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/openStack/!svn/ver/22/trunk/tests/scale_2p0.jpg
+END
+scale_0p5.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/openStack/!svn/ver/22/trunk/tests/scale_0p5.jpg
+END
