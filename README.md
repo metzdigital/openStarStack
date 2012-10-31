@@ -1,6 +1,6 @@
 openStarStack
 =============
-
+<pre>
 Usage: openStarStack [OPTION...] FILE1 FILE2 [FILE3...]
 openStarStack - open source astronomy image alignment and stacking software
 
@@ -50,3 +50,4 @@ for any corresponding short options.
 Enjoy...
 
 Report bugs to <brandonmetz@gmail.com>
+</pre>
