@@ -210,11 +210,13 @@ void RankObjects(imgObject *imageObjects, unsigned int size) {
 
 	for(i=0;i<size;i++) {
 		for(j=0; j<size; j++) {
-			if(i==j) {
+			if(j<=i) {
 		
 			}
 			else {
-				imageObjects[i].score += imageObjects[i].mass*imageObjects[j].mass/sqrt(pow((signed)imageObjects[i].x-(signed)imageObjects[j].x,2)+ pow((signed)imageObjects[i].y-(signed)imageObjects[j].y,2));
+				temp = 	imageObjects[i].mass*imageObjects[j].mass/sqrt(pow((signed)imageObjects[i].x-(signed)imageObjects[j].x,2)+ pow((signed)imageObjects[i].y-(signed)imageObjects[j].y,2));
+				imageObjects[i].score += temp;
+				imageObjects[j].score += temp; 
 			}		
 		}
 	}	
