@@ -2,6 +2,7 @@
 images/
 #Ignore the binary
 openStarStack
+*.o
 #Ignore any image files
 *.jpg
 */*.jpg
