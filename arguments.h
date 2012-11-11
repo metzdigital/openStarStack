@@ -16,7 +16,7 @@ static char args_doc[] = "FILE1 FILE2 [FILE3...]";
 static struct argp_option options[] = {
 	{0,0,0,0, 								 "The following options are for the alignment process:" },
 	{"threshold",  	't', "INT", 0, "Image threshold value - the minimum DN pixel value of a star required in order for it to be registered as a star (Default=100,Max=255)" },
-	{"num-stars",	's', "INT", 0, "Number of stars to use - The number of stars to use to form triangles with to try to make a valid match, higher the number, better the accuracy and longer the wait (Default=15,Max=50)" },
+	{"num-stars",	's', "INT", 0, "Number of stars to use - The number of stars to use to form triangles with to try to make a valid match, (Default=15,Max=50)" },
 	{"rss-metric",	'm', "FLOAT", 0, "Angle RSS metric value - one of a few metrics used to match triangulated stars between the images. (Default=0.001)" },
 	{"angle-metric",'a', "FLOAT", 0, "Angle delta metric - allowed delta between two possible triangle matches angles. (Default=0.002)"},
 	{"min-angle",		'g', "FLOAT", 0, "Minimum angle size - min angle size of all three triangle angles, straight lines don't make for good features to match across images (Default=0.1)" },

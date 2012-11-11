@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
 	imgStack = AddImages(starMatches,matchCount,arguments.primaryImage,arguments.darkFramesFilename,arguments.darkFramesIndex,arguments.flatFieldFilename,arguments.flatFieldIndex,arguments.zeroPixFilename);
 	
 	//Now that images are aligned and stacked, launch the gui to adjust histogram	
-	GuiInit("/Users/bcmetz/Code/openStack/trunk/glade/openStackGUI.glade");	
+	GuiInit("./glade/openStackGUI.glade");	
 
 /*	
 	while(1) {

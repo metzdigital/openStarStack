@@ -129,7 +129,6 @@ void GuiInit(char *guiFilename) {
 	float 		range[] = {0, 255};
 	float 		*ranges[] = { range };
 
-
     	builder = gtk_builder_new();
     	gtk_builder_add_from_file(builder, guiFilename, NULL);
 	//Assign all the widgets
@@ -178,12 +177,11 @@ void GuiInit(char *guiFilename) {
 	cvCalcHist(&imgBlue, hist, 0, 0);
 	imgHistBlue = DrawHistogram(hist,1,1);
  	cvClearHist(hist);
-
+	
 	//Display the histogram images
 	UpdateRedHistImage(imgHistRed);
 	UpdateGreenHistImage(imgHistGreen);	 
 	UpdateBlueHistImage(imgHistBlue);	 
-
 
 	//Update the main image with the scaled stack image
 	UpdateMainImage(imgStack8bit);	 
